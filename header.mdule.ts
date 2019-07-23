@@ -3,7 +3,7 @@ import { Component, NgModule, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-lazy',
-  template: '<h1>Dynamic Loaded Component</h1>'
+  templateUrl: 'https://raw.githubusercontent.com/rameshirreplaceable/DynamicModule/master/header.component.html'
 })
 export class LazyComponent implements OnInit {
 
